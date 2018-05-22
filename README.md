@@ -1,11 +1,11 @@
 # Itinerary Builder - Proof Of Concept
-## What does this application do? What is made for?
+## Goal of this application
 
 This application serves as a proof of concept for an itinerary builder whose goal is to assist the MyBhutan team during the sales process. With a product catalog containing more than 250 products, build a fully personnalized trip can be complicated. That's why we decided to build this application. It should allow our reader to manage the customer and product database; create a route planner for each customer; and save each route in a dedicated database. In order to facilitate interactions between MyBhutan and the authorities in Bhutan, we have also worked on a “financial reporting” functionality (i.e. a feature that summarize information for a given trip into a pdf that is then uploaded on the cloud).
 
 Feel free to reach out to Nicolas Tachet for further information: nicolas.tachet@columbia.edu
 
-## How can I initialize the project ?
+## Setup
 
 This project has been built using Nodejs for the controller, Postgresql to organize our database and html to create the views (bootstrap templates…). Make sure you have installed the latest versions of Nodejs and Postgresql before setting up the project.
 
