@@ -15,7 +15,7 @@ This project has been built using Nodejs for the controller, Postgresql to organ
 
 3. Install **pgadmin4** to manage easily your database using Postgresql. Then, restore the database using mybhutanPOC_backup (A plain text backup of the SQL database included in the project). Note that all the information contained in this database is dummy data we used to have something to work with. The client mentioned do not exist and the prices/costs associated to activities are randomly generated numbers. Using Pgadmin4 or any SQL command line, you can use this file to restore the database we used (https://www.pgadmin.org/docs/pgadmin4/1.x/backup_dialog.html). If you don’t do it, make sure you’re using the same schema for your table as the one we used. Afterwards, add your credentials in db.js (line 9) following the template below:
 
-'''var connectionString = postgresq://user:password@host:port/database'''
+`var connectionString = postgresq://user:password@host:port/database`
 
 
 ## Overview of the code:
