@@ -42,5 +42,9 @@ Afterwards, add your credentials in db.js (line 9) following the template below:
 ## Going further?
 
 This application is only a proof of concept and could not be deployed as it is: some bugs can still be found. Not to mention those few bugs, some features should definitely be added:
-[ ]
-[x]
+- [ ] The Database should be connected with the CRM used by MyBhutan (i.e. make sure the application and the CRM share the same client/product information). A solution may be to use Zapier to automate this task as it allows to create "Zap" between Base CRM and a Postgresql database. This would facilitate the coding part and insure all the databases share the same information
+- [ ] Interface to retrieve and manage clients/products/reports could be improved (add a filter functionality for instance)
+- [ ] The application should allow the generation of financial reports over a period of time (not only for one client)
+- [ ] Add an authentication feature (session management) to make sure data can be accessed only by the right person 
+
+
