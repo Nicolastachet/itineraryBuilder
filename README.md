@@ -1,7 +1,9 @@
 # Itinerary Builder - Proof Of Concept
-## Goal of this application
+## About this application
 
-This application serves as a proof of concept for an itinerary builder whose goal is to assist our client team during throughout sales process. With a product catalog containing more than 250 products, build a fully personnalized trip can be complicated for our client. That's why we decided to build this application. It should allow our reader to manage the customer and product database; create a route planner for each customer; and save each route in a dedicated database. In order to facilitate interactions between our client and the authorities in Bhutan, we have also worked on a “financial reporting” functionality (i.e. a feature that summarize information for a given trip into a pdf that is then uploaded on the cloud).
+This application serves as a proof of concept for an itinerary builder whose goal is to assist our client team throughout sales process. With a product catalog containing hundreds of products, build a fully personnalized trip can be complicated for our client. That's why we decided to build this application. It should allow our client to manage the customer and product database; create an itinerary for each customer; and save each itinerary in a dedicated database. 
+
+In order to facilitate interactions between our client and other third parties, we have also implemented a “financial reporting” functionality (i.e. a feature that summarize information for a given trip into a pdf that is then uploaded on AWS S3).
 
 Feel free to reach out to Nicolas Tachet for further information: nicolas.tachet@columbia.edu
 
@@ -9,7 +11,7 @@ Feel free to reach out to Nicolas Tachet for further information: nicolas.tachet
 
 This project has been built using Nodejs for the controller, Postgresql to organize our database and html to create the views (bootstrap templates…). Make sure you have installed the latest versions of Nodejs and Postgresql before setting up the project.
 
-1. Download all the dependencies (actually all the dependencies should already be included in the node_modules/ folder)
+1. Download all the dependencies (all the dependencies should already be included in the node_modules/ folder)
 
 2. Create an **Amazon Web Service** account and find your credentials. To do so you will need to use IAM (Identity and Access Management). In the IAM Dashboard, create a user; then in the “security credentials” section of this user, click on “Create access key”. Copy paste these credentials within the config.json file of the project. You will also need to create a bucket to store the pdf generated using the application. In the current project, replace all occurrences of "mybhutan-bucket1” by the name given to your bucket (in routes/itinerary.js and routes/report.js)
 
@@ -19,7 +21,7 @@ This project has been built using Nodejs for the controller, Postgresql to organ
 3. Install **pgadmin4** to manage easily your database using Postgresql. Then, create the database copying the schema suggested in the file DatabaseSchema. Make sure you’re using the same schema for your table as the one we used. 
 ![alt text](https://github.com/Nicolastachet/itineraryBuilder/blob/master/imagesForReadme/pg.png)
 
-Afterwards, add your credentials in db.js (line 9) following the template below: `var connectionString = postgresq://user:password@host:port/database`
+Afterwards, add your credentials in db.js (line 9) and app.js following the template below: `var connectionString = postgresq://user:password@host:port/database`
 
 
 ## Structure of the project:
