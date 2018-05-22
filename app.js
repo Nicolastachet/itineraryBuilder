@@ -24,7 +24,7 @@ app.use(express.static(`${__dirname}/public`));
 
 // Database
 // const {Pool, Client} = require('pg');
-// var connectionString = "postgres://nicotcht:MyBhutan@localhost/mybhutan";
+// var connectionString = "";
 //
 // const myPostgresStore = require('connect-pg-simple')(session);
 const db = require('./db.js');
