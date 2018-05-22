@@ -1,7 +1,7 @@
 # Itinerary Builder - Proof Of Concept
 ## Goal of this application
 
-This application serves as a proof of concept for an itinerary builder whose goal is to assist the MyBhutan team during the sales process. With a product catalog containing more than 250 products, build a fully personnalized trip can be complicated. That's why we decided to build this application. It should allow our reader to manage the customer and product database; create a route planner for each customer; and save each route in a dedicated database. In order to facilitate interactions between MyBhutan and the authorities in Bhutan, we have also worked on a “financial reporting” functionality (i.e. a feature that summarize information for a given trip into a pdf that is then uploaded on the cloud).
+This application serves as a proof of concept for an itinerary builder whose goal is to assist our client team during throughout sales process. With a product catalog containing more than 250 products, build a fully personnalized trip can be complicated for our client. That's why we decided to build this application. It should allow our reader to manage the customer and product database; create a route planner for each customer; and save each route in a dedicated database. In order to facilitate interactions between our client and the authorities in Bhutan, we have also worked on a “financial reporting” functionality (i.e. a feature that summarize information for a given trip into a pdf that is then uploaded on the cloud).
 
 Feel free to reach out to Nicolas Tachet for further information: nicolas.tachet@columbia.edu
 
@@ -42,7 +42,7 @@ Afterwards, add your credentials in db.js (line 9) following the template below:
 ## Going further?
 
 This application is only a proof of concept and could not be deployed as it is: some bugs can still be found. Not to mention those few bugs, some features should definitely be added:
-- [ ] Connect the database with the CRM used by MyBhutan (i.e. make sure the application and the CRM share the same client/product information). A solution may be to use Zapier to automate this task as it allows to create "Zap" between Base CRM and a Postgresql database. This would facilitate the coding part and insure all the databases share the same information
+- [ ] Connect the database with the CRM used by our client (i.e. make sure the application and the CRM share the same client/product information). A solution may be to use Zapier to automate this task as it allows to create "Zap" between Base CRM and a Postgresql database. This would facilitate the coding part and insure all the databases share the same information
 - [ ] Improve the interface for retrieving and managing clients/products/reports (e.g. add a filter functionality)
 - [ ] Allow the generation of financial reports over a period of time (not only for one client)
 - [ ] E-Mail automatically those reports to appropriate third parties
