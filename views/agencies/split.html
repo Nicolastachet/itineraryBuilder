@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="container">
+  <form method='POST' action='/testupload'>
+    <div class="form-group">
+      <input type="name" class="form-control" name="date" placeholder="Date of disbursement" value="{{date}}">
+    </div>
+    <div class="form-group">
+      <input type="name" class="form-control" name="name" placeholder="Name of the payee" value={{name}}>
+    </div>
+    <div class="form-group">
+      <input type="name" class="form-control" name="amount" placeholder="Amount of Money" value={{amount}}>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit the split</button>
+  </form>
+</div>
+{% endblock %}

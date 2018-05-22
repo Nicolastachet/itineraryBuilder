@@ -1,0 +1,32 @@
+{
+  "name": "invoice_gen",
+  "version": "1.0.0",
+  "description": "Generate financial report for BNB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Tachet",
+  "license": "ISC",
+  "dependencies": {
+    "ajax-form": "^2.1.4",
+    "aws-sdk": "^2.176.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hogan.js": "^3.0.2",
+    "html-pdf": "^2.2.0",
+    "nunjucks": "^3.0.1",
+    "pg": "^7.4.1",
+    "pg-promise": "^8.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolastachet/financial_Report_Gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nicolastachet/financial_Report_Gen/issues"
+  },
+  "homepage": "https://github.com/Nicolastachet/financial_Report_Gen#readme"
+}

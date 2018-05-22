@@ -1,0 +1,455 @@
+body
+{
+	margin:0px;
+	padding:0px;
+}
+div.document
+{
+	font-family:helvetica;
+	margin:     0;
+	padding:    0;
+	width:      20.8cm;
+	height:     29.2cm;
+	position:relative;
+	page-break-after:always;
+	margin:0px;
+	border:1px solid white; #hack for wkhtml
+}
+
+img.logo_bnb
+{
+	width:170px;
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+div.body
+{
+	margin:auto;
+	margin-left:115px;
+	margin-right:60px;
+	margin-top:0px;
+}
+p
+{
+	font-size:16px;
+	text-align:justify;
+	line-height:20px;
+}
+
+div.colonne
+{
+	width:45%;
+	float:left;
+}
+
+div.droite
+{
+	float:left;
+}
+div.spacer
+{
+	clear:both;
+}
+p.article
+{
+	margin-top:0px;
+
+}
+p.sign
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+div.paraphes
+{
+	position:absolute;
+	right:18px;
+	bottom:160px;
+	width:55px;
+}
+div.title
+{
+	font-size:11px;
+	margin-bottom:5px;
+	text-align:center;
+	font-family:helvetica;
+}
+div.paraphe
+{
+	border:1px solid black;
+	width:100%;
+	height:30px;
+	margin-top:-1px;
+}
+
+
+
+div.footer
+{
+	bottom:25px;
+	position:absolute;
+	width:100%;
+	left:0px;
+}
+div.reference
+{
+	left:100px;
+	bottom:91px;
+	position:absolute;
+}
+div.page
+{
+	right:10px;
+	bottom:91px;
+	position:absolute;
+}
+div.mentions
+{
+	position:absolute;
+	bottom:0px;
+	width:60%;
+	margin-left:20%;
+
+}
+div.mentions p
+{
+	margin:0px;
+	font-size:12px;
+	text-align:center;
+}
+p.left
+{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+p.center
+{
+	text-align:center;
+}
+p.right
+{
+	margin-top:40px;
+	margin-bottom:40px;
+	text-align:right;
+}
+h3
+{
+	text-decoration:underline;
+	font-size:16px;
+	margin-top:30px;
+}
+h4
+{
+	line-height:15px;
+	text-decoration:underline;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+div.article ul
+{
+	list-style:none;
+	margin:0px;
+	margin-left:20px;
+}
+div.article ul li
+{
+	margin-bottom:10px;
+}
+div.article div.footer p, div.article div.signature p
+{
+	text-indent:inherit;
+	margin-bottom:inherit;
+	margin-top:80px;
+}
+div.vertical
+{
+	position:absolute;
+	left:-290px;
+	top:520px;
+	font-size:60px;
+	font-weight:bold;
+	font-style:italic;
+	color:#DDDDDD;
+
+	-webkit-transform:rotate(270deg);
+		-moz-transform:rotate(270deg);
+		-o-transform: rotate(270deg);
+}
+div.allright
+{
+	-webkit-transform:rotate(270deg);
+		-moz-transform:rotate(270deg);
+		-o-transform: rotate(270deg);
+		position:absolute;
+		left:-25px;
+		font-size:10px;
+}
+img.afaq_left
+{
+	position:absolute;
+	width:45px;
+	left:35px;
+	bottom:120px;
+}
+h1
+{
+	top:20px;
+	position:absolute;
+	margin:0px;
+	right:20px;
+}
+div.colonne_footer
+{
+	float:left;
+	margin-left:32px;
+	font-size:12px;
+	line-height:17px;
+}
+div.header
+{
+	position:relative;
+	width:100%;
+	height:180px;
+}
+h2
+{
+	font-size:18px;
+	margin-bottom:30px;
+	text-align:left;
+}
+h2.simple
+{
+	text-align:left;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+p.par
+{
+	text-indent:60px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+div.articles p
+{
+	text-indent:60px;
+	margin-bottom:10px;
+	margin-top:0px;
+	font-size:15px;
+	line-height:17px;
+}
+div.signature
+{
+	margin-left:120px;
+	margin-top:50px;
+	text-align:center;
+}
+div.info_document
+{
+	position:absolute;
+	right:20px;
+	top:70px;
+	font-size:12px;
+	line-height:15px;
+}
+
+div.emitter
+{
+	float:left;
+	margin-left:0px;
+	margin-bottom:10px;
+}
+
+div.client
+{
+	float:right;
+	right:10px;
+	top:130px;
+	font-size:15px;
+	line-height:15px;
+	text-align:right;
+
+}
+
+div.emitter, div.client
+{
+	font-size:16px;
+	line-height:20px;
+}
+
+div.emitter p, div.client p
+{
+	text-align:justify;
+}
+
+
+div.footer.simple div.reference
+{
+	left:10px;
+	bottom:0px;
+	position:absolute;
+}
+div.footer.simple div.page
+{
+	right:10px;
+	bottom:0px;
+	position:absolute;
+}
+div.footer.simple div.mentions
+{
+	position:absolute;
+	bottom:0px;
+	width:70%;
+	left:15%;
+	margin-left:0px;
+}
+
+
+
+
+table
+{
+	width:100%;
+	margin:10px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-collapse:collapse;
+	font-size:13px;
+}
+table td, table th
+{
+	padding:5px;
+}
+table th, table tfoot td.center, table tfoot td.total
+{
+	border:1px solid black;
+}
+table tbody td, table th
+{
+	border-right:1px solid black;
+	border-left:1px solid black;
+
+}
+table tfoot
+{
+	border-top:1px solid black;
+}
+
+
+table td.center
+{
+	text-align:right;
+}
+
+
+table td.total
+{
+	font-weight:bold;
+	text-align:right;
+	border:0px;
+	padding-right:10px;
+}
+p.small
+{
+	font-size:13px;
+}
+p.signature
+{
+	font-size:13px;
+	margin-top:20px!important;
+	font-weight:bold;
+	text-align:right!important;
+}
+
+div.window
+{
+	position:absolute;
+	top:25mm;
+	right:5mm;
+	height:50mm;
+	width:110mm;
+	font-family:courier;
+}
+div.window p
+{
+	margin:0px;
+	padding:30px;
+}
+div.mail_header
+{
+	height:30%;
+}
+p.mail_place_date
+{
+	text-align:right;
+}
+p.mail_signature
+{
+	text-align:right;
+}
+div.mail_body
+{
+	margin:10mm;
+	margin-left:115px;
+	margin-right:60px;
+}
+div.mail_body p
+{
+	margin-bottom:5mm;
+	text-indent:10mm;
+}
+a:visited
+{
+	color:blue;
+}
+div.mail_body ul
+{
+	margin-left:40px;
+}
+div.mail_body ul li
+{
+	margin-bottom:10px;
+}
+blockquote
+{
+	line-height:20px;
+	border-left:5px solid #EFEFEF;
+	margin-left:65px;
+	padding-left:10px;
+}
+div.photo
+{
+	float:left;
+}
+div.photo img
+{
+	width:105px;
+	margin-right:10px;
+	margin-left:10px;
+	border-radius:10px;
+}
+div.infos
+{
+	float:left;
+	margin-bottom:20px;
+}
+div.infos p
+{
+	margin:0px;
+	font-size:13px;
+	margin-left:10px;
+}
+span.square
+{
+    display: inline-block;
+     height: 10px;
+     margin-left: 10px;
+     margin-right: 5px;
+     width: 10px;
+	 border:1px solid #000;
+}

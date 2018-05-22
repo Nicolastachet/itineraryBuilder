@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="container">
+  <form method='POST' action='/activity'>
+    <div class="form-group">
+      <input type="name" class="form-control" name="name" placeholder="Product/service name" value="{{name}}">
+    </div>
+    <div class="form-group">
+      <input type="name" class="form-control" name="category" placeholder="Category" value="{{category}}">
+    </div>
+    <div class="form-group">
+      <input type="name" class="form-control" name="cost" placeholder="Unit Cost" value={{cost}}>
+    </div>
+    <div class="form-group">
+      <input type="name" class="form-control" name="price" placeholder="Unit Price" value={{price}}>
+    </div>
+    <button type="submit" class="btn btn-info">Add this activity</button>
+  </form>
+</div>
+{% endblock %}

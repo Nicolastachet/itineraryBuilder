@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  <div class="container">
+
+<hr>
+
+<div class="row justify-content-between">
+  <div class="col-m-6">
+      <h5 class="display-4">
+          Report Management
+      </h5>
+  </div>
+</div>
+
+{%if bool_remove %}
+  <div class="alert alert-info" role="alert">
+    Report deleted successfully!
+  </div>
+  <hr>
+{% endif %}`
+
+            <div class="card-body">
+<div class="table-responsive">
+
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th class="text-center">ID</th>
+                  <th class="text-center"> Customer </th>
+                  <th class="text-center"> Amount </th>
+                  <th class="text-center"> Download</th>
+                  <th class="text-center"> Delete</th>
+                </tr>
+              </thead>
+
+              <tbody>
+
+                {%for this in reports%}
+                <tr>
+                  <td align="left" valign="middle">{{this[0]}}</td>
+                  <td align="center" valign="middle">{{this[1]}}</td>
+                  <td align="center" valign="middle">${{this[2]}}</td>
+                  <td align="center" valign="middle"> <a href="/itinerary/todo/download/:{{this[0]}}" class="btn btn-info btn-sm">Download PDF</a> </td>
+                  <td align="center" valign="middle"> <a href="/reports/delete/:{{this[0]}}" class="btn btn-danger btn-sm">Delete</a> </td>
+                </tr>
+                {% endfor %}
+
+              </tbody>
+
+ </div>
+</div>
+</div>
+{% endblock %}
