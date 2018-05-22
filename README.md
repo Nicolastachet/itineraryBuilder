@@ -41,4 +41,6 @@ Afterwards, add your credentials in db.js (line 9) following the template below:
 
 ## Going further?
 
-
+This application is only a proof of concept and could not be deployed as it is: some bugs can still be found. Not to mention those few bugs, some features should definitely be added:
+[ ]
+[x]
